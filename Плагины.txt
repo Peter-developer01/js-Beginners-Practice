@@ -1,0 +1,16 @@
+ESLint
+vscode-icons
+Theme - Oceanic Next
+Sass
+Reactjs code snippets
+Path Autocomplete
+Multiple clipboards for VSCode
+Live Server
+jshint
+JavaScript (ES6) code snippets
+Import Cost
+GitLens — Git supercharged
+Code Runner
+Beautify
+Auto Close Tag
+All Autocomplete
