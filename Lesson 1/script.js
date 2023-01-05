@@ -9,7 +9,7 @@ console.log(leftBorderWidth);
 
 const number = 5;
 const string = 'Hello!';
-const sym = Symbol();/* остановился на 2 41 */
+const sym = Symbol('C');/* остановился на 2 41 */
 const boolean = true;
 null;
 undefined;

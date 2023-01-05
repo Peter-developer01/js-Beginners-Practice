@@ -1,16 +1,34 @@
-ESLint
-vscode-icons
-Theme - Oceanic Next
-Sass
-Reactjs code snippets
-Path Autocomplete
-Multiple clipboards for VSCode
-Live Server
-jshint
-JavaScript (ES6) code snippets
-Import Cost
-GitLens — Git supercharged
-Code Runner
-Beautify
-Auto Close Tag
-All Autocomplete
+1. ESLint
+2. vscode-icons
+3. Theme - Oceanic Next
+4. Sass
+5. Reactjs code snippets
+6. Path Autocomplete
+7. Multiple clipboards for VSCode
+8. Live Server
+9. jshint
+10. JavaScript (ES6) code snippets
+12. Import Cost
+13. GitLens — Git supercharged
+14. Code Runner
+15. Beautify
+16. Auto Close Tag
+17. All Autocomplete
+
+Список необходимых плагинов:
+1. All Autocomplete
+2. Auto Close Tag
+3. Auto Complete Tag
+4. Auto Rename Tag
+5. Beautify
+6. Code Runner
+7. Import Cost
+8. JavaScript (ES6) code snippets
+9. jshint
+10. Live Server
+11. Multiple clipboards for VSCode
+12. Reactjs code snippets
+13. Sass
+14. Theme - Oceanic Next (опционально)
+15. vscode-icons
+16. ESLint

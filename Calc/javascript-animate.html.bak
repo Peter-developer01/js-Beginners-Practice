@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>JavaScript Element.ANIMATE({})</title>
+		<style>
+			@font-face {
+				font-family: Pixel;
+				src: url('PixelPoint.ttf');
+			}
+
+			body {
+				width: 96%;
+				min-height: 600px;
+				background: #156655;
+				text-align: center;
+			}
+
+			.div {
+				background: #333;
+				width: 300px;
+				height: 200px;
+				font-family: Pixel;
+				font-size: 30px;
+				color: #dfdfdf;
+				position: absolute;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div">text</div>
+
+		<script>
+			let btn = document.querySelector('.div');
+			// btn.addEventListener("click", () => {
+			// 	btn.animate({
+			// 		opacity: 0.1,
+			// 		height: '3px'
+			// 	}, 1000);
+			// });
+
+			let isMouseDown = false;
+			btn.addEventListener("mousedown", () => {
+				isMouseDown = true;
+			});
+			document.body.addEventListener("mouseup", () => {
+				isMouseDown = false;
+			});
+
+			btn.addEventListener("mousemove", ({ clientY = 0, clientX = 0 }) => {
+				if (isMouseDown) {
+					btn.animate({
+						 top: (clientY - (btn.getBoundingClientRect().height / 2)) + "px",
+						left: (clientX - (btn.getBoundingClientRect().height / 2)) + "px"
+					}, 1000);
+
+					console.log('frewjbfwers');
+				}
+			});
+		</script>
+	</body>
+</html>

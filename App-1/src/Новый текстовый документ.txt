@@ -1,0 +1,48 @@
+<script>
+export default {
+  // reactive state
+  data() {
+    return {
+      count: 0
+    }
+  },
+
+  // functions that mutate state and trigger updates
+  methods: {
+    increment() {
+      this.count++;
+    }
+  },
+
+  // lifecycle hooks
+  mounted() {
+    console.log(`The initial count is ${this.count}.`)
+  }
+}
+</script>
+
+<style>
+  span {
+    color: #905584;
+    font-size: 40px;
+    color: green;
+    letter-spacing: 0;
+  }
+</style>
+
+<template>
+  <button @click="increment">Count is: {{ count }}</button>
+  <div>
+    <span>{{ count }}&nbsp;
+    {{ count % 1 }}&nbsp;
+    {{ count % 2 }}&nbsp;
+    {{ count % 3 }}&nbsp;
+    {{ count % 4 }}&nbsp;
+    {{ count % 5 }}&nbsp;
+    {{ count % 6 }}&nbsp;
+    {{ count % 7 }}&nbsp;
+    {{ count % 8 }}&nbsp;
+    {{ count % 9 }}&nbsp;
+      {{ count % 10 }}&nbsp;</span>
+  </div>
+</template>
